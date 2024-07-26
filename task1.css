@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+* {
+    font-family: "Inconsolata", monospace;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2df;
+}
+
+header {
+    background-color: #f06c3fa0;
+    color: #000000;
+    padding: 30px;
+    text-align: right;
+}
+header p {
+    font-size: 30px;
+    
+}
+h1 {
+    font-size: 3lh;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.container p{
+    font-size: 1.2lh;
+}
+.container li{
+    font-size: 1.2lh;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 2lh;
+}
+h3 {
+    
+    font-size: 2lh;
+}
+
+.image-container {
+    position: relative;
+    width:70% ;
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+    
+    
+}
+
+.profile {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.name-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover .name-overlay {
+    opacity: 2;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #fff2df;
+    border: 1px solid #f7d5a2;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.project {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.257);
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #77aaff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
